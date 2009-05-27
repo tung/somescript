@@ -9,6 +9,7 @@
         <em:optionsURL>chrome://somescript/content/manage.xul</em:optionsURL>
         <em:iconURL>chrome://somescript/skin/logo.png</em:iconURL>
         <em:contributor>Icons from http://www.famfamfam.com/lab/icons/silk/</em:contributor>
+        <em:translator>Liam O'Connor Davis - ja-JP</em:translator>
         <em:type>2</em:type>
         <!-- Firefox -->
         <em:targetApplication>
