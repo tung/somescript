@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay [
+    <!ENTITY % somescript SYSTEM "chrome://somescript/locale/somescript.dtd">
+    <!ENTITY % branding SYSTEM "chrome://somescript/content/branding.dtd">
+    %somescript;
+    %branding;
+]>
+
+<overlay id="somescript-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/javascript" src="common.js"/>
+    <script type="application/javascript" src="browserOverlay.js"/>
+
+    <statusbar id="status-bar">
+        <stringbundle id="somescript-strings" src="chrome://somescript/locale/somescript.properties"/>
+        <statusbarpanel id="somescript-panel" class="statusbarpanel-iconic" src="chrome://somescript/skin/ok.png" onclick="someScriptBrowserOverlay.toggle();"/>
+    </statusbar>
+
+</overlay>

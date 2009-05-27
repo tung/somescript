@@ -1,0 +1,60 @@
+SomeScript
+==========
+
+SomeScript is a JavaScript whitelist add-on for Firefox.  It is heavily based
+on the source of YesScript[1] 1.5 by Jason Barnabe.  SomeScript aims to combine
+the JavaScript blocking of NoScript and the simple, unintrusive interface of
+YesScript.
+
+
+Compared to YesScript
+---------------------
+
+SomeScript is basically a hack of YesScript to block JavaScript by default.
+Like YesScript, SomeScript uses Firefox's configurable security policies[2], or
+CAPS, to block JavaScript.
+
+Since all the messages have fundamentally changed, the localisations for
+languages other than US English have been removed to avoid confusion.  New
+localisations are welcome.
+
+
+Compared to NoScript
+--------------------
+
+SomeScript only gives you the JavaScript blocking part of NoScript.
+
+Allowing JavaScript on a site will also allow that site to load and run
+JavaScript from other sites it sources.  Cross-site scripting is not checked
+for, since it is arguably the responsibility of the site, not the user[3].  If
+you need to control cross-site JavaScript, RequestPolicy[4] may suit your
+needs.
+
+Unlike NoScript, SomeScript does not block Flash.  The FlashBlock[5] add-on has
+this ability.
+
+Unlike NoScript, SomeScript does not block Java or other plugins.
+
+NoScript has the option to whitelist "base domains", e.g. allowing JavaScript
+on example.com can also allow it on www.example.com, cdn.example.com and
+news.example.com.  SomeScript does not have this yet, but it is on the
+wishlist.
+
+NoScript's interface is a mainly through a popup menu in the status bar, can
+allow JavaScript on a site temporarily to test it, and can optionally reload
+the page automatically.  SomeScript only needs you to click on the script icon
+in the status bar to toggle JavaScript on a site, but you need to refresh the
+page yourself.
+
+For programmers, SomeScript has a much simpler, cleaner source base than
+NoScript. This transparency ensures that you can read the source yourself if
+you need to trust it.  The source is licensed under GPLv2, like YesScript,
+ensures that SomeScript will always be free, and will always be developed for
+you, the users, first.
+
+
+ [1]: https://addons.mozilla.org/en-US/firefox/addon/4922
+ [2]: http://www.mozilla.org/projects/security/components/ConfigPolicy.html
+ [3]: http://www.howtocreate.co.uk/crosssite.html#blame
+ [4]: https://addons.mozilla.org/en-US/firefox/addon/9727
+ [5]: https://addons.mozilla.org/en-US/firefox/addon/433
