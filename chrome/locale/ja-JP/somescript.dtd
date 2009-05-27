@@ -1,0 +1,7 @@
+<!ENTITY addSite "足す">
+<!ENTITY addSite.ak "A">
+<!ENTITY delete "退かす">
+<!ENTITY delete.ak "R">
+<!ENTITY intro "このサイトだけでJSはいいです:">
+<!ENTITY site "サイト">
+<!ENTITY title "&somescript; いいサイト">
