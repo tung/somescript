@@ -17,7 +17,7 @@
         <stringbundle id="somescript-strings" src="chrome://somescript/locale/somescript.properties"/>
         <statusbarpanel id="somescript-panel" class="statusbarpanel-iconic" src="chrome://somescript/skin/ok.png" onclick="someScriptBrowserOverlay.click(event);" oncontextmenu="someScriptBrowserOverlay.showMenu();"/>
         <menupopup id="somescript-menu" position="before_end">
-            <menuitem label="SomeScript preferences..." oncommand="window.open('chrome://somescript/content/manage.xul', '', 'chrome');"/>
+            <menuitem label="&title;" oncommand="window.open('chrome://somescript/content/manage.xul', '', 'chrome');"/>
         </menupopup>
     </statusbar>
 
