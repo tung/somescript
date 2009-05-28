@@ -50,8 +50,19 @@ var someScriptBrowserOverlay = {
         someScriptBrowserOverlay.panel.setAttribute("whitelisted", whitelisted);
     },
 
+    click: function(event) {
+        // Toggle on left (= 0) clicks (middle = 1, right = 2)
+        if (event.button == 0)
+            someScriptBrowserOverlay.toggle();
+    },
+
     toggle: function() {
         someScriptCommon.whitelist(content.document.location.href, !(someScriptBrowserOverlay.panel.getAttribute("whitelisted") == "true"));
+    },
+
+    showMenu: function() {
+        var menu = document.getElementById("somescript-menu");
+        menu.openPopup(someScriptBrowserOverlay.panel, "before_end", 0, 0, false, false);
     }
 
 }
