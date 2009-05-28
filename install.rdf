@@ -4,7 +4,7 @@
         <em:id>somescript@spheredev.org</em:id>
         <em:name>SomeScript</em:name>
         <em:description>A JavaScript whitelist</em:description>
-        <em:version>0.1</em:version>
+        <em:version>0.2</em:version>
         <em:creator>Tung Nguyen</em:creator>
         <em:optionsURL>chrome://somescript/content/manage.xul</em:optionsURL>
         <em:iconURL>chrome://somescript/skin/logo.png</em:iconURL>
