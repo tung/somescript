@@ -3,6 +3,7 @@ overlay    chrome://browser/content/browser.xul    chrome://somescript/content/b
 
 locale    somescript    en-US    chrome/locale/en-US/
 locale    somescript    ja-JP    chrome/locale/ja-JP/
+locale    somescript    nl-NL    chrome/locale/nl-NL/
 
 skin    somescript    classic/1.0    chrome/skin/
 style chrome://global/content/customizeToolbar.xul chrome://somescript/skin/overlay.css
