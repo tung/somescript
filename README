@@ -1,6 +1,23 @@
 SomeScript
 ==========
 
+UPDATE
+------
+
+SomeScript development has effectively frozen, from June 3 2009.  There is
+major bug that prevents JavaScript working on many sites, even when
+whitelisted.  For those affected, uninstalling SomeScript should fix the issue.
+I don't know how to fix it without digging into the arcane guts of Firefox, and
+I don't have the knowledge needed to fix this.
+
+SomeScript will still be available on its GitHub page for as long as it's not
+inconvenient to me.  If somebody else wants to take a shot at fixing the bugs,
+be my guest. :)
+
+
+Introduction
+------------
+
 SomeScript is a JavaScript whitelist add-on for Firefox.  It is heavily based
 on the source of YesScript[1] 1.5 by Jason Barnabe.  SomeScript aims to combine
 the JavaScript blocking of NoScript and the simple, unintrusive interface of
